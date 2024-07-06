@@ -2,3 +2,39 @@
   max-width: 1080px;
   margin: 20px auto;
 }
+
+body {
+  background: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+}
+
+
+/* Default background */
+.app { 
+  min-height: 100vh; /* Ensures the background covers the entire viewport */
+  transition: background-color 0.3s ease; /* Smooth transition for background color changes */
+}
+
+/* Sunny background */
+.app.sunny-background {
+  background-color: #fdd835; /* Yellow */
+}
+
+/* Cloudy background */
+.app.cloudy-background {
+  background-color: #bdbdbd; /* Grey */
+}
+
+/* Rainy background */
+.app.rainy-background {
+  background-color: #4fc3f7; /* Light Blue */
+}
+
+/* Cloud with Sun background */
+.app.cloud-sun-background {
+  background-color: #fff9c4; /* Lighter Yellow */
+}
+
+/* Night background */
+.app.night-background {
+  background-color: #37474f; /* Blue */
+}
